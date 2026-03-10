@@ -1,0 +1,10 @@
+id: "skill-id-placeholder"
+version: "1.0.0"
+author: "AI Master"
+category: "utility"
+description: "Descripción breve de la habilidad"
+triggers:
+  keywords: ["trigger1", "trigger2"]
+  file_patterns: []
+priority: "medium"
+dependencies: []
