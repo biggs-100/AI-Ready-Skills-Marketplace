@@ -1,3 +1,15 @@
+---
+name: ai-ml-finetune
+description: Especialista en ai ml finetune
+version: 2.0.0
+category: general
+triggers:
+  keywords:
+  - ai ml finetune
+  file_patterns:
+  - '*'
+---
+
 # SKILL: Fine-tuning con QLoRA
 
 ## 🎯 Propósito

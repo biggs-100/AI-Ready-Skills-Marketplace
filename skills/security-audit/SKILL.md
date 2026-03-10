@@ -1,3 +1,15 @@
+---
+name: security-audit
+description: Especialista en security audit
+version: 2.0.0
+category: general
+triggers:
+  keywords:
+  - security audit
+  file_patterns:
+  - '*'
+---
+
 # SKILL: Auditoría de Seguridad
 
 ## 🎯 Propósito

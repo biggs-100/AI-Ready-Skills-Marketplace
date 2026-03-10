@@ -1,3 +1,15 @@
+---
+name: documentation-expert
+description: Especialista en documentation expert
+version: 2.0.0
+category: general
+triggers:
+  keywords:
+  - documentation expert
+  file_patterns:
+  - '*'
+---
+
 # Skill: Documentation Expert ✍️
 
 ## 🎯 Objetivo

@@ -1,3 +1,15 @@
+---
+name: test-automation
+description: Especialista en test automation
+version: 2.0.0
+category: general
+triggers:
+  keywords:
+  - test automation
+  file_patterns:
+  - '*'
+---
+
 # SKILL: Test Automation - Tests Automáticos y CI/CD
 
 ## 🎯 Propósito

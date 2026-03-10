@@ -1,3 +1,15 @@
+---
+name: api-endpoint-creation
+description: Especialista en api endpoint creation
+version: 2.0.0
+category: general
+triggers:
+  keywords:
+  - api endpoint creation
+  file_patterns:
+  - '*'
+---
+
 # SKILL: Crear Endpoint API (FastAPI)
 
 ## 🎯 Propósito

@@ -1,3 +1,15 @@
+---
+name: external-service-integration
+description: Especialista en external service integration
+version: 2.0.0
+category: general
+triggers:
+  keywords:
+  - external service integration
+  file_patterns:
+  - '*'
+---
+
 # SKILL: Integrar Servicio Externo
 
 ## 🎯 Propósito

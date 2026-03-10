@@ -1,3 +1,15 @@
+---
+name: git-integration
+description: Especialista en git integration
+version: 2.0.0
+category: general
+triggers:
+  keywords:
+  - git integration
+  file_patterns:
+  - '*'
+---
+
 # SKILL: Git & GitHub Integration
 
 ## 🎯 Propósito

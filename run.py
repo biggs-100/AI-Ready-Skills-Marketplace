@@ -36,25 +36,28 @@ def cmd_create(name):
         print(f"⚠️ La skill '{name}' ya existe.")
         return 1
     
-    template_src = TEMPLATES_DIR / "skill_template"
+    template_src = TEMPLATES_DIR / "skill_template_v2"
     if not template_src.exists():
-        # Crear template básico si no existe
-        template_src.mkdir(parents=True, exist_ok=True)
-        (template_src / "SKILL.md").write_text("# Skill: [Nombre]\nInstrucciones aquí...", encoding="utf-8")
-        (template_src / "metadata.yaml").write_text("id: placeholder\ncategory: tools\ntriggers:\n  keywords: []", encoding="utf-8")
+        print("❌ Error: No se encuentra la plantilla v2.0 en templates/skill_template_v2")
+        return 1
 
     shutil.copytree(template_src, dest)
     
-    # Personalizar metadata.yaml
-    meta_path = dest / "metadata.yaml"
-    with open(meta_path, "r", encoding="utf-8") as f:
-        meta = yaml.safe_load(f) or {}
+    # Personalizar SKILL.md (Extraer y actualizar Frontmatter)
+    skill_md_path = dest / "SKILL.md"
+    content = skill_md_path.read_text(encoding="utf-8")
     
-    meta['id'] = name
-    with open(meta_path, "w", encoding="utf-8") as f:
-        yaml.dump(meta, f, sort_keys=False)
+    # Regex simple para encontrar el frontmatter
+    import re
+    match = re.match(r'^---\s*\n(.*?)\n---\s*\n', content, re.DOTALL)
+    if match:
+        frontmatter = yaml.safe_load(match.group(1)) or {}
+        frontmatter['name'] = name
+        new_frontmatter = yaml.dump(frontmatter, sort_keys=False)
+        new_content = f"---\n{new_frontmatter}---\n" + content[match.end():]
+        skill_md_path.write_text(new_content, encoding="utf-8")
 
-    print(f"✅ Skill '{name}' creada con éxito en {dest}")
+    print(f"✅ Skill '{name}' (v2.0) creada con éxito en {dest}")
     return 0
 
 def cmd_validate(name):
@@ -63,21 +66,31 @@ def cmd_validate(name):
         print(f"❌ La skill '{name}' no existe.")
         return 1
     
-    required_files = ["SKILL.md", "metadata.yaml"]
+    required_files = ["SKILL.md", "REFERENCE.md"]
+    required_dirs = ["docs", "examples", "templates"]
     errors = []
 
     for f in required_files:
         if not (skill_path / f).exists():
             errors.append(f"Falta el archivo obligatorio: {f}")
     
+    for d in required_dirs:
+        if not (skill_path / d).is_dir():
+            errors.append(f"Falta el directorio obligatorio: {d}/")
+
     if not errors:
         try:
-            with open(skill_path / "metadata.yaml", "r", encoding="utf-8") as f:
-                meta = yaml.safe_load(f)
-            if not meta.get('id'): errors.append("metadata.yaml no tiene 'id'")
-            if not meta.get('triggers'): errors.append("metadata.yaml no tiene 'triggers'")
+            content = (skill_path / "SKILL.md").read_text(encoding="utf-8")
+            import re
+            match = re.match(r'^---\s*\n(.*?)\n---\s*\n', content, re.DOTALL)
+            if not match:
+                errors.append("SKILL.md no tiene Frontmatter YAML")
+            else:
+                meta = yaml.safe_load(match.group(1))
+                if not meta.get('name'): errors.append("Frontmatter no tiene 'name'")
+                if not meta.get('triggers'): errors.append("Frontmatter no tiene 'triggers'")
         except Exception as e:
-            errors.append(f"Error parseando metadata.yaml: {e}")
+            errors.append(f"Error parseando Frontmatter: {e}")
 
     if errors:
         print(f"❌ Validación fallida para '{name}':")
@@ -85,7 +98,7 @@ def cmd_validate(name):
             print(f"  - {err}")
         return 1
     else:
-        print(f"✅ Skill '{name}' es válida y lista para el Marketplace.")
+        print(f"✅ Skill '{name}' cumple con el estándar v2.0.")
         return 0
 
 def cmd_list():
@@ -96,7 +109,19 @@ def cmd_list():
     print("📋 Skills en desarrollo:")
     for item in SKILLS_DIR.iterdir():
         if item.is_dir():
-            print(f"  • {item.name}")
+            # Intentar leer descripción del SKILL.md
+            desc = ""
+            try:
+                skill_md = item / "SKILL.md"
+                if skill_md.exists():
+                    content = skill_md.read_text(encoding="utf-8")
+                    import re
+                    match = re.match(r'^---\s*\n(.*?)\n---\s*\n', content, re.DOTALL)
+                    if match:
+                        meta = yaml.safe_load(match.group(1))
+                        desc = f" - {meta.get('description', '')[:50]}..."
+            except: pass
+            print(f"  • {item.name}{desc}")
 
 def main():
     if len(sys.argv) < 2:

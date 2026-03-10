@@ -1,3 +1,15 @@
+---
+name: devops-integration
+description: Especialista en devops integration
+version: 2.0.0
+category: general
+triggers:
+  keywords:
+  - devops integration
+  file_patterns:
+  - '*'
+---
+
 # SKILL: Integración con Herramientas Externas
 
 ## 🎯 Propósito

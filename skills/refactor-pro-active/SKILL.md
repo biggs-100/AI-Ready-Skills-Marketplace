@@ -1,3 +1,15 @@
+---
+name: refactor-pro-active
+description: Especialista en refactor pro active
+version: 2.0.0
+category: general
+triggers:
+  keywords:
+  - refactor pro active
+  file_patterns:
+  - '*'
+---
+
 # Skill: Refactor Pro-Active ⚙️
 
 ## 🎯 Objetivo

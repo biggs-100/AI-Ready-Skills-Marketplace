@@ -1,3 +1,15 @@
+---
+name: release-notes-gen
+description: Especialista en release notes gen
+version: 2.0.0
+category: general
+triggers:
+  keywords:
+  - release notes gen
+  file_patterns:
+  - '*'
+---
+
 # Skill: Release Notes Generator 🚀
 
 ## 🎯 Objetivo

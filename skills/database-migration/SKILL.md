@@ -1,3 +1,15 @@
+---
+name: database-migration
+description: Especialista en database migration
+version: 2.0.0
+category: general
+triggers:
+  keywords:
+  - database migration
+  file_patterns:
+  - '*'
+---
+
 # SKILL: Crear Migración de Base de Datos
 
 ## 🎯 Propósito

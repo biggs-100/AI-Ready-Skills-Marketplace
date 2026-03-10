@@ -1,3 +1,15 @@
+---
+name: alerts-notifications
+description: Especialista en alerts notifications
+version: 2.0.0
+category: general
+triggers:
+  keywords:
+  - alerts notifications
+  file_patterns:
+  - '*'
+---
+
 # SKILL: Alerts & Notifications
 
 ## 🎯 Propósito

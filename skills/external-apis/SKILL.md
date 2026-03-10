@@ -1,3 +1,15 @@
+---
+name: external-apis
+description: Especialista en external apis
+version: 2.0.0
+category: general
+triggers:
+  keywords:
+  - external apis
+  file_patterns:
+  - '*'
+---
+
 # SKILL: External APIs Integration
 
 ## 🎯 Propósito

@@ -1,3 +1,15 @@
+---
+name: performance-tuning
+description: Especialista en performance tuning
+version: 2.0.0
+category: general
+triggers:
+  keywords:
+  - performance tuning
+  file_patterns:
+  - '*'
+---
+
 # SKILL: Performance Tuning
 
 ## 🎯 Propósito
