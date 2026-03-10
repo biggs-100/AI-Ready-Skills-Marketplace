@@ -1,0 +1,11 @@
+id: "refactor-pro-active"
+version: "1.0.0"
+author: "AI Master Factory"
+category: "quality"
+description: "Especialista en detección de deuda técnica y refactorización preventiva."
+triggers:
+  keywords: ["refactor", "cleanup", "code smell", "optimizar código", "mantenibilidad"]
+  file_patterns: ["src/**/*.py", "frontend/src/**/*.ts", "frontend/src/**/*.tsx"]
+priority: "medium"
+auto_activate: false
+dependencies: []

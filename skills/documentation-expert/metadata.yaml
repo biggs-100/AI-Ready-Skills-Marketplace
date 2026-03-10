@@ -1,0 +1,11 @@
+id: "documentation-expert"
+version: "1.0.0"
+author: "AI Master Factory"
+category: "quality"
+description: "Experto en generación de documentación técnica, diagramas Mermaid y docstrings."
+triggers:
+  keywords: ["documentar", "guia técnica", "mermaid", "docstrings", "README"]
+  file_patterns: ["src/**/*.py", "frontend/src/**/*.ts", "docs/**/*.md"]
+priority: "high"
+auto_activate: true
+dependencies: ["sync-graph"]

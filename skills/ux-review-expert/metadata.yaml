@@ -1,0 +1,11 @@
+id: "ux-review-expert"
+version: "1.0.0"
+author: "AI Master Factory"
+category: "design"
+description: "Auditor de diseño especializado en el estándar UX Pro Max v2.0."
+triggers:
+  keywords: ["ux review", "diseño", "ui audit", "estética", "estilos"]
+  file_patterns: ["**/*.css", "**/*.tsx", "**/*.html", "**/*.jsx"]
+priority: "high"
+auto_activate: true
+dependencies: []
