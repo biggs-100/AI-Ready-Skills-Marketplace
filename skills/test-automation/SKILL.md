@@ -1,11 +1,15 @@
 ---
 name: test-automation
-description: Especialista en test automation
+description: "Especialista en automatización básica de tests. Configura frameworks de testing, genera fixtures y establece runners de CI para ejecución continua."
 version: 2.0.0
-category: general
+category: quality
 triggers:
   keywords:
-  - test automation
+  - test automatizado
+  - pytest
+  - jest
+  - ci test
+  - automatizar tests
   file_patterns:
   - '*'
 ---

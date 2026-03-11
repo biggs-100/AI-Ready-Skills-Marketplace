@@ -1,11 +1,15 @@
 ---
 name: database-migration
-description: Especialista en database migration
+description: "Especialista en el diseño, generación y ejecución segura de migraciones de base de datos. Soporta rollback, verificación de integridad y generación de scripts SQL/ORM para PostgreSQL, SQLite y MySQL."
 version: 2.0.0
-category: general
+category: devops
 triggers:
   keywords:
-  - database migration
+  - migración
+  - alterar tabla
+  - nueva columna
+  - schema change
+  - alembic
   file_patterns:
   - '*'
 ---

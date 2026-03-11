@@ -1,11 +1,14 @@
 ---
 name: documentation-expert
-description: Especialista en documentation expert
+description: "Especialista en generación y mantenimiento de documentación técnica. Crea READMEs, guías de usuario y documentación de módulos."
 version: 2.0.0
-category: general
+category: documentation
 triggers:
   keywords:
-  - documentation expert
+  - documentar
+  - readme
+  - guía técnica
+  - generar docs
   file_patterns:
   - '*'
 ---

@@ -37,7 +37,7 @@ Este documento contiene el listado completo de habilidades disponibles en este m
 | [`testing-master-architect`](#testing-master-architect) | `quality` | `2.1.0` | Arquitecto maestro de calidad. Automatiza la generación de tests E2E, Unitarios e Integración, garantizando una cobertura >80% y cumplimiento de la "Ley de Hierro". |
 | [`security-guardian`](#security-guardian) | `security` | `2.1.0` | Guardián proactivo de seguridad y privacidad. Escanea datos sensibles (PII), busca secretos y garantiza el cumplimiento de políticas de seguridad en tiempo real. |
 | [`security-sentinel`](#security-sentinel) | `security` | `2.0.0` | Especialista en auditoría de seguridad preventiva. Escanea código, configuraciones y endpoints buscando vulnerabilidades (OWASP, inyecciones, fallos de auth) antes del despliegue. |
-| [`v2-test-skill`](#v2-test-skill) | `utility` | `2.0.0` | [Descripción clara para que la IA sepa cuándo activarla] |
+
 
 ---
 
@@ -342,14 +342,4 @@ Este documento contiene el listado completo de habilidades disponibles en este m
 
 [Ver documentación técnica](skills/security-sentinel/SKILL.md) | [Guía de Referencia](skills/security-sentinel/REFERENCE.md)
 
-## 📁 Categoría: Utility
-
-### <a name="v2-test-skill"></a> 🛠️ v2-test-skill
-
-- **ID:** `v2-test-skill`
-- **Versión:** `2.0.0`
-- **Autor:** AI Master Factory
-- **Descripción:** [Descripción clara para que la IA sepa cuándo activarla]
-
-[Ver documentación técnica](skills/v2-test-skill/SKILL.md) | [Guía de Referencia](skills/v2-test-skill/REFERENCE.md)
 

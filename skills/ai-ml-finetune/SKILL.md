@@ -1,11 +1,14 @@
 ---
 name: ai-ml-finetune
-description: Especialista en ai ml finetune
+description: "Especialista en fine-tuning y ajuste de modelos de machine learning y LLMs. Automatiza la preparación de datos, el entrenamiento y la evaluación de modelos pre-entrenados."
 version: 2.0.0
-category: general
+category: ai-ml
 triggers:
   keywords:
-  - ai ml finetune
+  - fine-tuning
+  - entrenar modelo
+  - ajustar LLM
+  - machine learning
   file_patterns:
   - '*'
 ---

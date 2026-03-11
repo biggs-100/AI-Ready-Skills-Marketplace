@@ -1,11 +1,15 @@
 ---
 name: performance-tuning
-description: Especialista en performance tuning
+description: "Especialista en ajuste fino de parámetros de rendimiento. Optimiza queries SQL, configuración de caches, pool de conexiones y parámetros de servidor."
 version: 2.0.0
-category: general
+category: performance
 triggers:
   keywords:
-  - performance tuning
+  - performance
+  - optimizar query
+  - cache
+  - tune
+  - lento
   file_patterns:
   - '*'
 ---

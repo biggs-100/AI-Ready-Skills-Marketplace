@@ -1,11 +1,14 @@
 ---
 name: security-audit
-description: Especialista en security audit
+description: "Especialista en auditoría profunda de seguridad bajo demanda. Realiza análisis exhaustivo de vulnerabilidades, inyecciones y configuraciones de seguridad."
 version: 2.0.0
-category: general
+category: security
 triggers:
   keywords:
-  - security audit
+  - auditoría seguridad
+  - vulnerabilidad
+  - pentest
+  - owasp
   file_patterns:
   - '*'
 ---

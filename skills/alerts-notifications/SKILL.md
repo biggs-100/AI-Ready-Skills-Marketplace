@@ -1,11 +1,15 @@
 ---
 name: alerts-notifications
-description: Especialista en alerts notifications
+description: "Especialista en diseño e implementación de sistemas de alertas y notificaciones. Configura canales (email, SMS, push, webhooks) y gestiona reglas de enrutamiento inteligente."
 version: 2.0.0
-category: general
+category: operations
 triggers:
   keywords:
-  - alerts notifications
+  - alertas
+  - notificaciones
+  - email
+  - push notification
+  - webhook
   file_patterns:
   - '*'
 ---

@@ -1,11 +1,15 @@
 ---
 name: refactor-pro-active
-description: Especialista en refactor pro active
+description: "Especialista en refactorización proactiva de código. Identifica code smells, reduce complejidad ciclomática y aplica patrones de diseño para mejorar la mantenibilidad."
 version: 2.0.0
-category: general
+category: quality
 triggers:
   keywords:
-  - refactor pro active
+  - refactorizar
+  - code smell
+  - clean code
+  - modularizar
+  - complejidad
   file_patterns:
   - '*'
 ---

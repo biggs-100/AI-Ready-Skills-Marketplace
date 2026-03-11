@@ -1,11 +1,15 @@
 ---
 name: social-media-bot
-description: Especialista en social media bot
+description: "Especialista en automatización de publicaciones en redes sociales. Genera contenido optimizado para Twitter/X, LinkedIn y otras plataformas, con scheduling y analytics."
 version: 2.0.0
-category: general
+category: marketing
 triggers:
   keywords:
-  - social media bot
+  - tweet
+  - linkedin
+  - post social
+  - redes sociales
+  - marketing
   file_patterns:
   - '*'
 ---

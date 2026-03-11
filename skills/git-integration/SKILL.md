@@ -1,11 +1,16 @@
 ---
 name: git-integration
-description: Especialista en git integration
+description: "Especialista en automatización de flujos Git. Gestiona branches, merge strategies, generación de changelogs y automatización de tags y releases."
 version: 2.0.0
-category: general
+category: devops
 triggers:
   keywords:
-  - git integration
+  - git
+  - branch
+  - merge
+  - release
+  - changelog
+  - tag
   file_patterns:
   - '*'
 ---

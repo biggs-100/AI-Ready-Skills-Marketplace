@@ -1,11 +1,16 @@
 ---
 name: devops-integration
-description: Especialista en devops integration
+description: "Especialista en integración de pipelines DevOps y CI/CD. Configura despliegues automatizados, monitoreo de infraestructura y gestión de entornos (staging/production)."
 version: 2.0.0
-category: general
+category: devops
 triggers:
   keywords:
-  - devops integration
+  - devops
+  - ci/cd
+  - deploy
+  - pipeline
+  - docker
+  - kubernetes
   file_patterns:
   - '*'
 ---

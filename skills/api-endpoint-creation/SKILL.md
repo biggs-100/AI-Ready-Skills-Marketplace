@@ -1,11 +1,14 @@
 ---
 name: api-endpoint-creation
-description: Especialista en api endpoint creation
+description: "Especialista en la creación de endpoints API RESTful siguiendo los patrones del proyecto. Genera validación con Pydantic, inyección de dependencias, logging y manejo de errores."
 version: 2.0.0
-category: general
+category: backend
 triggers:
   keywords:
-  - api endpoint creation
+  - nuevo endpoint
+  - crear api
+  - rest api
+  - nuevo route
   file_patterns:
   - '*'
 ---

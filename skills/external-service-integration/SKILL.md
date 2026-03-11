@@ -1,11 +1,15 @@
 ---
 name: external-service-integration
-description: Especialista en external service integration
+description: "Especialista en integración completa con servicios externos (pagos, autenticación, almacenamiento). Orquesta el flujo de integración end-to-end con manejo de errores y fallbacks."
 version: 2.0.0
-category: general
+category: integration
 triggers:
   keywords:
-  - external service integration
+  - integrar servicio
+  - servicio externo
+  - stripe
+  - auth0
+  - s3
   file_patterns:
   - '*'
 ---

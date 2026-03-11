@@ -1,11 +1,14 @@
 ---
 name: external-apis
-description: Especialista en external apis
+description: "Especialista en consumo e integración con APIs externas. Implementa clientes HTTP robustos con retry, circuit breaker y manejo de rate limits."
 version: 2.0.0
-category: general
+category: integration
 triggers:
   keywords:
-  - external apis
+  - api externa
+  - llamada http
+  - rest client
+  - integrar api
   file_patterns:
   - '*'
 ---

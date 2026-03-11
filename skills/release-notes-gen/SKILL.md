@@ -1,11 +1,14 @@
 ---
 name: release-notes-gen
-description: Especialista en release notes gen
+description: "Especialista en generación automática de notas de release. Analiza commits, PRs y changelogs para producir comunicación clara de cambios para stakeholders."
 version: 2.0.0
-category: general
+category: documentation
 triggers:
   keywords:
-  - release notes gen
+  - release notes
+  - notas de versión
+  - changelog
+  - what's new
   file_patterns:
   - '*'
 ---
