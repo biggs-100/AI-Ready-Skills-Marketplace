@@ -1,0 +1,14 @@
+name: documentation-guardian
+version: 2.1.0
+author: Antigravity Orchestrator
+category: quality
+tags:
+  - documentation
+  - governance
+  - automation
+  - mermaid
+requirements:
+  - python >= 3.10
+  - markdownlint
+description: Skill avanzada que automatiza la creación y validación de documentación técnica viva, integrando diagramas Mermaid y validación contra el glosario del proyecto.
+icon: 🛡️

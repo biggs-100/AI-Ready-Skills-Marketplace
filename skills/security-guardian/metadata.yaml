@@ -1,0 +1,12 @@
+name: security-guardian
+version: 2.1.0
+author: Antigravity Orchestrator
+category: security
+tags:
+  - security
+  - privacy
+  - pii
+  - owasp
+  - encryption
+icon: 🛡️
+description: Especialista en proteger la integridad y privacidad del proyecto, con foco en datos PII y prevención de vulnerabilidades estructurales.

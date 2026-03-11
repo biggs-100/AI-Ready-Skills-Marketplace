@@ -1,0 +1,13 @@
+name: testing-master-architect
+version: 2.1.0
+author: Antigravity Orchestrator
+category: quality
+tags:
+  - quality
+  - testing
+  - pytest
+  - vitest
+  - tdd
+  - automation
+icon: 🧪
+description: Orquesta la calidad técnica del proyecto mediante la generación y validación de suites de prueba de alto rendimiento y cobertura garantizada.
