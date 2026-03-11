@@ -11,5 +11,5 @@ tags:
 requirements:
   - python >= 3.10
   - markdownlint
-description: Edición Gentleman. Automatiza la documentación narrativa (Journals), ADRs avanzados y cumplimiento de capas de Clean Architecture (Dominio, Aplicación, Infraestructura).
+description: Elite Edition. Automatiza la documentación narrativa (Journals), ADRs avanzados y cumplimiento de capas de Clean Architecture (Dominio, Aplicación, Infraestructura).
 icon: 🛡️

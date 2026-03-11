@@ -8,7 +8,7 @@
 
 [Describe el problema técnico o de negocio que motiva esta decisión. ¿Qué restricciones tenemos?]
 
-## Alternativas Consideradas (Gentleman Choice) ⚖️
+## Alternativas Consideradas (Elite Choice) ⚖️
 
 1. **[Alternativa A]**: [Por qué era viable y por qué se descartó]
 2. **[Alternativa B]**: [Por qué era viable y por qué se descartó]

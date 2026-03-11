@@ -1,6 +1,6 @@
-# 🛠️ AI Skills Marketplace — Gentleman Factory Edition
+# 🛠️ AI Skills Marketplace — Elite Factory Edition
 
-> **"La inteligencia no es solo código, es el racional acumulado detrás de cada decisión."** — *Gentleman Factory Vision*
+> **"La inteligencia no es solo código, es el racional acumulado detrás de cada decisión."** — *Elite Factory Vision*
 
 Este repositorio es la **Forja de Inteligencia** para el ecosistema AI-Ready. Aquí no solo guardamos scripts; curamos habilidades de élite diseñadas para ser desacopladas, escalables y, sobre todo, justificadas por un racional técnico sólido.
 

@@ -2,7 +2,7 @@
 
 ## 🧭 Visión Estratégica
 
-Consolidar un repositorio centralizado de "Micro-Inteligencias" (Skills) que sigan el estándar **Gentleman Edition**: Desacopladas, con racional explícito y orientadas a Clean Architecture.
+Consolidar un repositorio centralizado de "Micro-Inteligencias" (Skills) que sigan el estándar **Elite Edition**: Desacopladas, con racional explícito y orientadas a Clean Architecture.
 
 ---
 
@@ -10,7 +10,7 @@ Consolidar un repositorio centralizado de "Micro-Inteligencias" (Skills) que sig
 
 ### Resumen de Evolución
 
-Lanzamiento oficial del marketplace y transición al estándar **v3.0 (Gentleman Edition)**. Se ha refactorizado la skill fundamental `documentation-guardian` para actuar como el estándar de oro del repositorio.
+Lanzamiento oficial del marketplace y transición al estándar **v3.0 (Elite Edition)**. Se ha refactorizado la skill fundamental `documentation-guardian` para actuar como el estándar de oro del repositorio.
 
 #### ⚡ Decisiones Críticas
 

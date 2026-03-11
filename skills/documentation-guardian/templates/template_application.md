@@ -1,6 +1,6 @@
 # ⚙️ Capa de Aplicación: [Nombre del Módulo]
 
-> **Gentleman Rule**: Aquí residen los Casos de Uso. Esta capa orquesta el dominio pero no conoce la infraestructura.
+> **Elite Rule**: Aquí residen los Casos de Uso. Esta capa orquesta el dominio pero no conoce la infraestructura.
 
 ## 🏃 Casos de Uso
 

@@ -1,6 +1,6 @@
 # ⚙️ Infraestructura: Skills Marketplace Factory
 
-> **Gentleman Rule**: Los detalles técnicos de cómo se validan y distribuyen las skills mueren aquí. La lógica de negocio está en las Skills mismas.
+> **Elite Rule**: Los detalles técnicos de cómo se validan y distribuyen las skills mueren aquí. La lógica de negocio está en las Skills mismas.
 
 ## 🛠️ Adaptadores y Herramientas
 
@@ -19,4 +19,4 @@
 - **Estrategia de Cambio**: El sistema es agnóstico del contenido de las skills, lo que permite evolucionar las habilidades sin tocar el motor de distribución.
 
 ---
-*Documentación generada bajo el estándar Gentleman v3.0.*
+*Documentación generada bajo el estándar Elite v3.0.*

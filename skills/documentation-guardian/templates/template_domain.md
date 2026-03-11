@@ -1,6 +1,6 @@
 # 🧠 Capa de Dominio: [Nombre del Módulo]
 
-> **Gentleman Rule**: El dominio debe estar 100% libre de dependencias externas (Frameworks, DB, APIs).
+> **Elite Rule**: El dominio debe estar 100% libre de dependencias externas (Frameworks, DB, APIs).
 
 ## 🎯 Propósito y Reglas de Negocio
 

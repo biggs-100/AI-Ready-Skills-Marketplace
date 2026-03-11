@@ -1,6 +1,6 @@
 # 🔌 Capa de Infraestructura: [Nombre del Módulo]
 
-> **Gentleman Rule**: Los detalles técnicos (DB, HTTP Clients, Frameworks) mueren aquí. Implementamos las interfaces de la Aplicación.
+> **Elite Rule**: Los detalles técnicos (DB, HTTP Clients, Frameworks) mueren aquí. Implementamos las interfaces de la Aplicación.
 
 ## 🛠️ Adaptadores y Herramientas
 

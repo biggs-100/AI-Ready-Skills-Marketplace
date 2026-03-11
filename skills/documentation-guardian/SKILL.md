@@ -20,11 +20,14 @@ dependencies:
   - glossary-checker
 ---
 
-# 🛡️ SKILL: Documentation Guardian (Gentleman Edition)
+# 🛡️ SKILL: Documentation Guardian (Elite Edition)
+
+> "El guardián no solo vigila el código, vigila el racional que lo habita."
 
 ## 🎯 Propósito
 
-Transformar el conocimiento técnico en documentación viva bajo los estándares de **Gentleman Programming**. Esta skill no solo explica el "qué", sino que blinda el **"Por qué"** y asegura la integridad de las capas de Clean Architecture.
+Esta skill asegura que la documentación técnica sea un activo vivo, estructurado y siempre sincronizado con el código, utilizando principios de **Elite Programming** y Clean Architecture.
+Esta skill no solo explica el "qué", sino que blinda el **"Por qué"** y asegura la integridad de las capas de Clean Architecture.
 
 ## 🔍 Cuándo Activar
 
