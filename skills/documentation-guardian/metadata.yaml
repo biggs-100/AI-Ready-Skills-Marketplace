@@ -1,14 +1,15 @@
 name: documentation-guardian
-version: 2.1.0
-author: Antigravity Orchestrator
+version: 3.0.0
+author: Antigravity & Gentleman Programming
 category: quality
 tags:
   - documentation
-  - governance
-  - automation
+  - architecture
+  - clean-architecture
+  - adr
   - mermaid
 requirements:
   - python >= 3.10
   - markdownlint
-description: Skill avanzada que automatiza la creación y validación de documentación técnica viva, integrando diagramas Mermaid y validación contra el glosario del proyecto.
+description: Edición Gentleman. Automatiza la documentación narrativa (Journals), ADRs avanzados y cumplimiento de capas de Clean Architecture (Dominio, Aplicación, Infraestructura).
 icon: 🛡️

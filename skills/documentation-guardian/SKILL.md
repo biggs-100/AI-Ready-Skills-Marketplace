@@ -20,72 +20,66 @@ dependencies:
   - glossary-checker
 ---
 
-# 🛡️ SKILL: Documentation Guardian (Pro Max)
+# 🛡️ SKILL: Documentation Guardian (Gentleman Edition)
 
 ## 🎯 Propósito
 
-Transformar el conocimiento técnico del sistema en documentación viva, precisa y visualmente impactante. Esta skill actúa como un **Auditor de la Verdad**, asegurando que cada cambio en el código tenga su contraparte documental correspondiente.
+Transformar el conocimiento técnico en documentación viva bajo los estándares de **Gentleman Programming**. Esta skill no solo explica el "qué", sino que blinda el **"Por qué"** y asegura la integridad de las capas de Clean Architecture.
 
 ## 🔍 Cuándo Activar
 
-- Al crear un nuevo módulo o directorio en `src/`.
-- Al realizar cambios estructurales que afecten a `relationships.yaml`.
-- Cuando se detectan términos nuevos en el código que no están en el glosario.
-- Tras finalizar una sesión para generar el **Session Checkpoint**.
+- Al crear o modificar módulos en `src/`.
+- Al tomar decisiones técnicas que impacten el largo plazo (ADRs).
+- Tras finalizar una sesión para actualizar el **Architecture Decision Journal**.
 
-## 🛠️ Workflow Avanzado
+## 🛠️ Workflow Avanzado (Gentleman Way)
 
-### Paso 1: Auditoría de Coherencia (Inception)
+### Paso 1: Clasificación de Capas (Boundary Detection)
 
-Antes de escribir, analiza:
+Antes de generar el README, identifica dónde reside el código:
 
-- `relationships.yaml` para detectar nuevas dependencias runtime.
-- `.ai/context/glossary.yaml` para asegurar terminología consistente.
-- Código fuente para extraer firmas de API y decoradores de seguridad.
+- **Dominio**: Reglas de negocio puras. Usar `template_domain.md`.
+- **Aplicación**: Casos de uso y orquestación. Usar `template_application.md`.
+- **Infraestructura**: Adaptadores y detalles técnicos. Usar `template_infrastructure.md`.
 
-### Paso 2: Generación Visual (Mermaid First)
+### Paso 2: El Diario Arquitectónico (Context Preservation)
 
-Si el módulo tiene complejidad lógica o múltiples dependencias:
+Cada decisión importante debe ser brevemente reseñada en `.ai/ARCHITECTURAL_JOURNAL.md` para mantener la narrativa histórica del proyecto.
 
-- Generar un diagrama de flujo o de arquitectura en **Mermaid** dentro del archivo `.md`.
+### Paso 3: ADRs con Racional Exhaustivo
 
-### Paso 3: Aplicación de Plantillas
+Al crear un ADR usando `adr.md`, es **obligatorio**:
 
-Utilizar los archivos en la carpeta `templates/` según la necesidad:
+1. Listar el **Gentleman Choice**: ¿Qué alternativas se descartaron y por qué?
+2. Análisis de **Desacoplamiento**: ¿Esta decisión rompe la independencia de las capas?
+3. Puntuar el impacto en **Deuda Técnica**.
 
-- `adr.md` para decisiones arquitectónicas.
-- `module_readme.md` para documentación de sub-módulos.
-- `openapi_spec.yaml` para contratos de API.
+### Paso 4: Generación Visual de Fronteras
 
-### Paso 4: Auditoría de "Blind Spots"
+Representar con Mermaid los límites entre capas, no solo el flujo de datos.
 
-Escanear el código en busca de:
+### Paso 5: Sincronización y Validación RAG
 
-- Funciones sin docstrings (si se requiere).
-- Términos técnicos no definidos en el manual.
-- Diferencias entre el contrato de API y la implementación.
-
-### Paso 5: Sincronización y Validación
-
-- Ejecutar `py run.py sync` para actualizar el Manual RAG.
-- Validar el formato con `markdownlint` (especialmente MD024, MD060, MD040).
+- Ejecutar `py run.py sync`.
+- Validar formato y lints.
 
 ## 📝 Plantillas Disponibles
 
-- **ADR**: Ubicación: `templates/adr.md`
-- **Module README**: Ubicación: `templates/module_readme.md`
-- **OpenAPI 3.1**: Ubicación: `templates/openapi_spec.yaml`
+- **Architecture Journal**: `templates/architecture_journal.md`
+- **ADR Advanced**: `templates/adr.md`
+- **Domain README**: `templates/template_domain.md`
+- **App README**: `templates/template_application.md`
+- **Infra README**: `templates/template_infrastructure.md`
 
-## ✅ Checklist de Validación
+## ✅ Checklist "Gentleman"
 
-- [ ] ¿El diagrama Mermaid refleja las dependencias en `relationships.yaml`?
-- [ ] ¿Se han evitado "blind spots" terminológicos (Glosario sincronizado)?
-- [ ] ¿La documentación explica el **POR QUÉ** más que el **QUÉ**?
-- [ ] ¿Se han pasado las validaciones de `run.py validate`?
+- [ ] ¿El ADR incluye alternativas descartadas?
+- [ ] ¿Se ha actualizado el Diario Arquitectónico?
+- [ ] ¿El README del módulo identifica correctamente su capa (Dom/App/Infra)?
+- [ ] ¿Se explica el **POR QUÉ** detrás de la arquitectura?
 
 ## 🚫 Anti-patrones
 
-❌ Documentación redundante (explicar lo que el código ya dice).
-❌ Diagramas Mermaid desincronizados con la realidad de las carpetas.
-❌ Usar placeholders o "Lorem Ipsum".
-❌ Olvidar sincronizar el RAG tras actualizar un archivo maestro.
+❌ Mezclar lógica de dominio con detalles de infraestructura en el mismo README.
+❌ Ignorar las consecuencias negativas de una decisión técnica.
+❌ Dejar el Diario Arquitectónico desactualizado más de 2 sesiones.
