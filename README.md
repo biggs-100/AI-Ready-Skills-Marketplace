@@ -1,26 +1,35 @@
-# 🛠️ AI Skills Marketplace — Elite Factory Edition
+# 🛠️ Elite Skills Marketplace
 
-> **"La inteligencia no es solo código, es el racional acumulado detrás de cada decisión."** — *Elite Factory Vision*
+> **"Micro-Inteligencias desacopladas para el ecosistema AI-Ready."**
 
-Este repositorio es la **Forja de Inteligencia** para el ecosistema AI-Ready. Aquí no solo guardamos scripts; curamos habilidades de élite diseñadas para ser desacopladas, escalables y, sobre todo, justificadas por un racional técnico sólido.
-
-## 🎯 Visión Estratégica (The "Why")
-
-Las IAs suelen fallar por falta de contexto o por seguir patrones genéricos. Este marketplace existe para:
-
-1. **Cerrar la Brecha de Contexto**: Cada skill inyecta años de mejores prácticas (Hexagonal, Clean Code) directamente en el proyecto del usuario.
-2. **Gobernanza Automatizada**: Las habilidades actúan como guardianes que impiden la entrada de deuda técnica.
-3. **Desacoplamiento Total**: Diseñadas bajo el principio de responsabilidad única, permitiendo que el orquestador las invoque solo cuando son estrictamente necesarias.
-
-## 🏗️ Arquitectura de la Factoría
-
-Mantenemos una estructura de capas para asegurar que el marketplace sea mantenible:
-
-- **`skills/` (Dominio)**: El corazón de la factoría. Cada carpeta es una unidad de inteligencia independiente con su propia lógica y contratos.
-- **`templates/` (Aplicación)**: Casos de uso base para la creación acelerada de nuevas habilidades.
-- **`scripts/` & `run.py` (Infraestructura)**: El utillaje necesario para validar, empaquetar y distribuir la inteligencia.
+Repositorio central de habilidades (Skills) diseñadas bajo el estándar Elite: modulares, con racional técnico y listas para instalar.
 
 ---
+
+## 🚀 Uso Rápido
+
+```bash
+python run.py skill-list-remote       # Ver catálogo
+python run.py skill-install <nombre> # Instalar skill
+```
+
+---
+
+## 🏗️ Estructura Elite
+
+- **`skills/`**: Directorio de habilidades instalables.
+- **`templates/`**: Estructuras base para nuevas skills.
+- **`docs/`**: Racional de infraestructura.
+
+---
+
+## 📖 Documentación
+- [**Directorio de Skills**](SKILLS_DIRECTORY.md): Lista completa de capacidades.
+- [**Architecture Journal**](ARCHITECTURAL_JOURNAL.md): Evolución de la forja.
+- [**Guía de Contribución**](CONTRIBUTING.md): Cómo crear skills Elite.
+
+---
+*Elite Factory v3.0.*
 
 ## 🚀 Ciclo de Vida del Desarrollo
 
