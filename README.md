@@ -1,72 +1,61 @@
 # 🛠️ Elite Skills Marketplace
 
-> **"Micro-Inteligencias desacopladas para el ecosistema AI-Ready."**
+```text
+  ______ _      _____ _______ ______ 
+ |  ____| |    |_   _|__   __|  ____|
+ | |__  | |      | |    | |  | |__   
+ |  __| | |      | |    | |  |  __|  
+ | |____| |____ _| |_   | |  | |____ 
+ |______|______|_____|  |_|  |______| FACTORY
+```
 
-Repositorio central de habilidades (Skills) diseñadas bajo el estándar Elite: modulares, con racional técnico y listas para instalar.
+> **"Micro-Inteligencias desacopladas para el ecosistema AI-Ready."**
 
 ---
 
 ## 🚀 Uso Rápido
 
-```bash
-python run.py skill-list-remote       # Ver catálogo
-python run.py skill-install <nombre> # Instalar skill
-```
+| Acción | Comando |
+| :--- | :--- |
+| **Explorar** | `python run.py skill-list-remote` |
+| **Instalar** | `python run.py skill-install <nombre>` |
 
 ---
 
-## 🏗️ Estructura Elite
+## 🏗️ Estructura de la Forja (Elite Architecture)
 
-- **`skills/`**: Directorio de habilidades instalables.
-- **`templates/`**: Estructuras base para nuevas skills.
-- **`docs/`**: Racional de infraestructura.
+Nuestra arquitectura asegura que cada habilidad sea una cápsula de conocimiento pura.
 
----
-
-## 📖 Documentación
-- [**Directorio de Skills**](SKILLS_DIRECTORY.md): Lista completa de capacidades.
-- [**Architecture Journal**](ARCHITECTURAL_JOURNAL.md): Evolución de la forja.
-- [**Guía de Contribución**](CONTRIBUTING.md): Cómo crear skills Elite.
-
----
-*Elite Factory v3.0.*
-
-## 🚀 Ciclo de Vida del Desarrollo
-
-### 1. Creación con Racional
-
-Para empezar una nueva habilidad basada en el estándar **Gentleman Edition**:
-
-```bash
-python run.py create <skill-name>
-```
-
-### 2. Validación "Iron Law"
-
-No permitimos código sin integridad. Valida tu skill contra las reglas del marketplace:
-
-```bash
-python run.py validate <skill-name>
-```
-
-### 3. Distribución E2E
-
-Las habilidades se sirven como **Micro-Inteligencias** que el orquestador principal puede instalar vía Git:
-
-```bash
-# En el proyecto destino:
-python run.py skill-install <skill-name>
-```
+| Componente | Capa | Responsabilidad |
+| :--- | :--- | :--- |
+| **`skills/`** | Dominio | Unidades de inteligencia autónoma y desacoplada. |
+| **`templates/`** | Aplicación | Blueprints para la creación acelerada de habilidades. |
+| **`docs/`** | Infraestructura | Racional técnico de distribución y validación. |
 
 ---
 
-## 📔 Diario de Arquitectura
+## 🔄 Ciclo de Vida del Desarrollo
 
-Consulta la evolución y decisiones críticas en nuestro [Architecture Journal](ARCHITECTURAL_JOURNAL.md).
+Para asegurar el **v3.0 Elite Standard**, seguimos este flujo:
 
-## 📚 Catálogo de Habilidades
-
-Explora el [Directorio Completo de Skills](SKILLS_DIRECTORY.md) para encontrar la herramienta exacta para tu desafío.
+1. **Investigar**: Identificar el "Por Qué" histórico del problema.
+2. **Proponer**: Documentar ADR con racional técnico Elite.
+3. **Spec**: Definir el contrato (Input/Output) y fronteras de la skill.
+4. **Apply**: Implementar siguiendo Clean Architecture.
+5. **Verify**: Validar contra las leyes "Iron Law".
 
 ---
-*Mantenido con rigor por Antigravity Orchestrator.*
+
+## 📖 Documentación Maestra
+
+Mantenemos el conocimiento centralizado para maximizar el contexto de la IA:
+
+| Recurso | Enlace | Descripción |
+| :--- | :--- | :--- |
+| **Directorio de Skills** | [Directory](SKILLS_DIRECTORY.md) | Catálogo detallado de todas las capacidades. |
+| **Architecture Journal** | [Journal](ARCHITECTURAL_JOURNAL.md) | Diario de decisiones y evolución de la forja. |
+| **Guía de Contribución** | [Contributing](CONTRIBUTING.md) | Protocolos para crear e inyectar habilidades Elite. |
+| **Infraestuctura** | [Elite Marketplace](docs/ELITE_MARKETPLACE.md) | Racional técnico detrás del motor del marketplace. |
+
+---
+*Elite Factory v3.0 | Curando el Racional de la IA.*
